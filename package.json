@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "project for the recruitment process of IIC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run":"concurrently \"npm run dev --prefix ./client\" \"nodemon server/backend.js\" ",
+    "install":"npm install --prefix ./client && npm install",
+    "release":"standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nishant040305/UserAuthentication.git"
+  },
+  "author": "Nishant Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishant040305/UserAuthentication/issues"
+  },
+  "homepage": "https://github.com/Nishant040305/UserAuthentication#readme"
+}
